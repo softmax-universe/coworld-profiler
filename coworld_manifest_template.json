@@ -1,5 +1,5 @@
 {
-  "$schema": "https://raw.githubusercontent.com/Metta-AI/metta/main/packages/coworld/src/coworld/coworld_manifest_schema.json",
+  "$schema": "https://raw.githubusercontent.com/softmax-universe/softmax/main/packages/coworld/src/coworld/coworld_manifest_schema.json",
   "tags": [
     "profiling",
     "infrastructure",
@@ -18,7 +18,7 @@
         "-m",
         "profiler.game.server"
       ],
-      "source_url": "https://github.com/Metta-AI/coworld-profiler/tree/main"
+      "source_url": "https://github.com/softmax-universe/coworld-profiler/tree/main"
     },
     "config_schema": {
       "$defs": {
@@ -896,17 +896,17 @@
     "protocols": {
       "player": {
         "type": "uri",
-        "value": "https://github.com/Metta-AI/coworld-profiler/blob/main/docs/player-protocol.md"
+        "value": "https://github.com/softmax-universe/coworld-profiler/blob/main/docs/player-protocol.md"
       },
       "global": {
         "type": "uri",
-        "value": "https://github.com/Metta-AI/coworld-profiler/blob/main/docs/player-protocol.md#global-viewer"
+        "value": "https://github.com/softmax-universe/coworld-profiler/blob/main/docs/player-protocol.md#global-viewer"
       }
     },
     "docs": {
       "readme": {
         "type": "uri",
-        "value": "https://github.com/Metta-AI/coworld-profiler/blob/main/README.md"
+        "value": "https://github.com/softmax-universe/coworld-profiler/blob/main/README.md"
       },
       "pages": [
         {
@@ -914,7 +914,7 @@
           "title": "measurement-reference.md",
           "content": {
             "type": "uri",
-            "value": "https://github.com/Metta-AI/coworld-profiler/blob/main/docs/measurement-reference.md"
+            "value": "https://github.com/softmax-universe/coworld-profiler/blob/main/docs/measurement-reference.md"
           }
         },
         {
@@ -922,7 +922,7 @@
           "title": "design.md",
           "content": {
             "type": "uri",
-            "value": "https://github.com/Metta-AI/coworld-profiler/blob/main/docs/designs/2026-09-09-profiler-design.md"
+            "value": "https://github.com/softmax-universe/coworld-profiler/blob/main/docs/designs/2026-09-09-profiler-design.md"
           }
         }
       ]
@@ -941,7 +941,7 @@
         "--policy",
         "echo"
       ],
-      "source_url": "https://github.com/Metta-AI/coworld-profiler/tree/main/profiler/player",
+      "source_url": "https://github.com/softmax-universe/coworld-profiler/tree/main/profiler/player",
       "description": "Instrumented player that decodes, replies noop, and reports every stage's timestamps."
     },
     {
@@ -958,7 +958,7 @@
         "--think-cpu-ms",
         "5"
       ],
-      "source_url": "https://github.com/Metta-AI/coworld-profiler/tree/main/profiler/player",
+      "source_url": "https://github.com/softmax-universe/coworld-profiler/tree/main/profiler/player",
       "description": "Echo plus 5 ms of thread CPU per turn, to emulate real think time and expose CPU throttling."
     },
     {
@@ -975,7 +975,7 @@
         "--connect-delay-seconds",
         "5"
       ],
-      "source_url": "https://github.com/Metta-AI/coworld-profiler/tree/main/profiler/player",
+      "source_url": "https://github.com/softmax-universe/coworld-profiler/tree/main/profiler/player",
       "description": "Echo that sleeps 5 s before its first connect, to probe lobby waiting and connect-timeout behaviour."
     }
   ],

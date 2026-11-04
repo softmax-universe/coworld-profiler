@@ -253,7 +253,7 @@ docs/             this doc, player-protocol.md, measurement-reference.md
 
 ## Decisions made without asking
 
-- Repo `Metta-AI/coworld-profiler`, public, MIT, default branch `main`.
+- Repo `softmax-universe/coworld-profiler`, public, MIT, default branch `main`.
 - `scores` are all zero.
 - Cut from v1: binary codec control, compression comparison, packet capture.
 - Design doc lives in `docs/designs/` per James's global conventions.

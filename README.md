@@ -111,8 +111,8 @@ worker's status observation, not a player handshake.
 
 The resource table supports `container.run`, `player.pod_create`, and
 `player.startup_observed` from companion Metta PRs
-[#22417](https://github.com/Metta-AI/metta/pull/22417) and
-[#22406](https://github.com/Metta-AI/metta/pull/22406). These are implemented
+[#22417](https://github.com/softmax-universe/softmax/pull/22417) and
+[#22406](https://github.com/softmax-universe/softmax/pull/22406). These are implemented
 changes awaiting merge and deployment, not fields present in historical traces.
 Older saved traces do not contain those records. The aggregate startup gate
 (`player.startup_wait`) and each player's observed startup are different intervals.
